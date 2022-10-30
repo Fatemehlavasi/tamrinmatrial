@@ -5,8 +5,7 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemText from '@mui/material/ListItemText';
 import Checkbox from '@mui/material/Checkbox';
-import IconButton from '@mui/material/IconButton';
-import CommentIcon from '@mui/icons-material/Comment';
+
 
 import { Typography } from '@mui/material';
 
@@ -53,7 +52,7 @@ const ListItemm = () => {
                   edge="start"/>
               </ListItemIcon> 
               <ListItemText>
-                <Typography variant={'subtitle2'}>Have lunch by 3pm</Typography>
+                <Typography variant={'title'}>Have lunch by 3pm</Typography>
               </ListItemText>
             </ListItemButton>
           </ListItem>
@@ -64,7 +63,7 @@ const ListItemm = () => {
                   edge="start"/>
               </ListItemIcon> 
               <ListItemText>
-                <Typography variant={'subtitle2'}>Go visit mom by 4pm</Typography>
+                <Typography variant={'title'}>Go visit mom by 4pm</Typography>
               </ListItemText>
             </ListItemButton>
           </ListItem>
